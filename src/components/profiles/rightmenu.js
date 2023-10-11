@@ -13,11 +13,11 @@ export default function rightmenu() {
                 </div>
                 <div className=' grid grid-rows-[1fr_1fr_1fr] bg-white'>
                     <div className=' flex flex-row items-center justify-start'>
-                        <p>{name}</p>
+                        <p className='ml-2'>{name}</p>
 
                     </div>
-                    <div className=' flex flex-row items-center justify-start'>
-                        <p>{job}</p>
+                    <div className='  flex flex-row items-center justify-start'>
+                        <p className='ml-2'>{job}</p>
 
                     </div>
                     
